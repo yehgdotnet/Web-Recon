@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- 
 Web Recon Database maintained by YGN Ethical Hacker Group, http://yehg.net/
-v2013-09-02	
+v2018-03-09	
 
 Submit your contribution to tool at yehg.net
 
@@ -228,6 +228,7 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 		<link name="XCCDF" value="https://www.google.com/search?q=site:scap.nist.gov/specifications/xccdf/ (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
 		<link name="SCAP" value="https://www.google.com/search?q=site:scap.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />		
 		<link name="CEE" value="https://www.google.com/search?q=site:cee.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
+		<link name="CWE SEMMLE" value="https://www.google.com/search?q=%s site:https://help.semmle.com/wiki/display/"  compatible="yes" ontextfield=""  />
 		<link name="CERT_SecureCoding" value="https://www.securecoding.cert.org/confluence/dosearchsite.action?queryString=%s"  compatible="yes" ontextfield=""  />
 	    
 	</category>		
