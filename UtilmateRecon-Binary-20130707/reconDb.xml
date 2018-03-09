@@ -154,7 +154,6 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 
 	<category name="Tools">
 		<link name="Metasploit Module" value="http://www.metasploit.com/modules/framework/search?utf8=%E2%9C%93&amp;osvdb=&amp;bid=&amp;text=%s&amp;cve=&amp;msb="  compatible="yes" ontextfield=""  />
-		<link name="Metasploit SVN" value="http://dev.metasploit.com/redmine/projects/framework/search?utf8=%E2%9C%93&amp;q=%s&amp;scope=all&amp;all_words=&amp;all_words=1&amp;titles_only=&amp;issues=1&amp;changesets=1&amp;wiki_pages=1&amp;submit=Submit"  compatible="yes" ontextfield=""  />
 		<link name="Metasploit GitHub" value="https://www.google.com/search?q=%s%20site:https://github.com/rapid7/metasploit-framework"  compatible="yes" ontextfield=""  />
 		<link name="Nessus" value="https://www.google.com/search?q=(intitle:%s OR intext:%s) site:www.nessus.org/plugins/"  compatible="yes" ontextfield=""  />
 		<link name="NeXpose" value="http://www.rapid7.com/VulnDbSearchServlet?query=%s&amp;search.x=0&amp;search.y=0"  compatible="yes" ontextfield=""  />		
@@ -242,10 +241,11 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 	
 	<!-- Resources -->
 	<category name="Resources">	
+		<link name="Arstechica News" value="https://arstechnica.com/search/?ie=UTF-8&q=%s"  compatible="yes" ontextfield=""  />		
+		<link name="Wikipedia" value="http://en.wikipedia.org/wiki/Special:Search?search=%s"  compatible="yes" ontextfield=""  />	
 		<link name="SecurityToolsWatch" value="http://www.security-database.com/toolswatch/spip.php?page=recherche&amp;recherche=%s"  compatible="yes" ontextfield=""  />
 		<link name="HackerWebDir" value="http://yehg.net/hwd/index.php?id=s&amp;q=%s"  compatible="yes" ontextfield=""  />	
-		<link name="CyberInsecure News" value="http://cyberinsecure.com/?s=%s"  compatible="yes" ontextfield=""  />
-		<link name="Wiki" value="http://en.wikipedia.org/wiki/Special:Search?search=%s"  compatible="yes" ontextfield=""  />		
+		<link name="CyberInsecure News" value="http://cyberinsecure.com/?s=%s"  compatible="yes" ontextfield=""  />	
 		<link name="TopLevel Domain Check" value="http://www.uwhois.com/domains.html"  compatible="yes" ontextfield=""  />
 		<link name="Exif Viewer" value="http://regex.info/exif.cgi?imgurl=%s"  compatible="yes" ontextfield=""  />
 		<link name="ReverseImageSearch" value="http://www.tineye.com/parse/load?url=%s"  compatible="yes" ontextfield=""  />		
