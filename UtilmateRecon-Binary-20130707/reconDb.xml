@@ -19,7 +19,7 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 -->
 <links>
 	<category name="Info">
-		<link name="lastupdate" value="v2013-05-11-2222" cat="info" compatible="yes" ontextfield=""  />
+		<link name="lastupdate" value="v2018-03-12" cat="info" compatible="yes" ontextfield=""  />
 		<link name="compatible_program_version" value="hellion" cat="info" compatible="yes" ontextfield=""  />
 	</category>
 	
@@ -68,42 +68,42 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 	<!-- GHDB -->
 	<category name="GHDB">	
 		<link name="GHDB Home" value="http://www.exploit-db.com/google-dorks/?action=search&amp;ghdb_search_cat_id=0&amp;ghdb_search_text=%s" compatible="yes" ontextfield=""  />
-		<link name="site" value="https://www.google.com/search?q=site:%s"  compatible="yes" ontextfield=""  />
-		<link name="link" value="https://www.google.com/search?q=link:%s"  compatible="yes" ontextfield=""  />
-		<link name="cache" value="https://www.google.com/search?q=cache:%s&amp;sstrip=1"  compatible="yes" ontextfield=""  />
-		<link name="indexOf" value="https://www.google.com/search?q=intitle:%22Index%20of%22%20 site:%s"  compatible="yes" ontextfield=""  />
+		<link name="site" value="https://duckduckgo.com/?q=site:%s"  compatible="yes" ontextfield=""  />
+		<link name="link" value="https://duckduckgo.com/?q=link:%s"  compatible="yes" ontextfield=""  />
+		<link name="cache" value="https://duckduckgo.com/?q=cache:%s&amp;sstrip=1"  compatible="yes" ontextfield=""  />
+		<link name="indexOf" value="https://duckduckgo.com/?q=intitle:%22Index%20of%22%20 site:%s"  compatible="yes" ontextfield=""  />
 			
-		<link name="wildcard" value="https://www.google.com/search?q=*%s*"  compatible="yes" ontextfield=""  />
-		<link name="secret" value="https://www.google.com/search?q=intext:(top secret | classified) filetype:doc site:%s"  compatible="yes" ontextfield=""  />
-		<link name="password1" value="https://www.google.com/search?q=password site:%s*"  compatible="yes" ontextfield=""  />	
+		<link name="wildcard" value="https://duckduckgo.com/?q=*%s*"  compatible="yes" ontextfield=""  />
+		<link name="secret" value="https://duckduckgo.com/?q=intext:(top secret | classified) filetype:doc site:%s"  compatible="yes" ontextfield=""  />
+		<link name="password1" value="https://duckduckgo.com/?q=password site:%s*"  compatible="yes" ontextfield=""  />	
 
-		<link name="password2" value='https://www.google.com/search?q=intext:("using password"|"forget password"|"reset password"|"Fatal error"|"Failed opening"|"information services"|"System Statistics"|"Powered by"|"curriculum vitae") site:%s'  compatible="yes" ontextfield=""  />
+		<link name="password2" value='https://duckduckgo.com/?q=intext:("using password"|"forget password"|"reset password"|"Fatal error"|"Failed opening"|"information services"|"System Statistics"|"Powered by"|"curriculum vitae") site:%s'  compatible="yes" ontextfield=""  />
 
-		<link name="userinfo" value="https://www.google.com/search?q=intext:(registered|username|author|member|user|userid|passcode|pin|password|config|cfg|conf|help|desk|contact|Powered by|Copyright) site:%s"  compatible="yes" ontextfield=""  />
+		<link name="userinfo" value="https://duckduckgo.com/?q=intext:(registered|username|author|member|user|userid|passcode|pin|password|config|cfg|conf|help|desk|contact|Powered by|Copyright) site:%s"  compatible="yes" ontextfield=""  />
 
-		<link name="loginfo" value="https://www.google.com/search?q=intext:(login|logon|information|services|ASP.NET_SessionId|googlebot|stat|awstat|secret|token|Statistics|pdf|xls|doc|txt) site:%s"  compatible="yes" ontextfield=""  />
-		<link name="internal1" value="https://www.google.com/search?q=intext:(intranet|report|admin|administrator|security|temp|tmp|download|curriculum vitae|address|phone|fax|email|assessment) site:%s"  compatible="yes" ontextfield=""  />	
-		<link name="internal2" value="https://www.google.com/search?q=inurl:(user|authors|members|passcode|pin|pass|password|pwd|config|cfg|conf|help|desk|contact|intranet|report|admin|administrator) site:%s"  compatible="yes" ontextfield=""  />
+		<link name="loginfo" value="https://duckduckgo.com/?q=intext:(login|logon|information|services|ASP.NET_SessionId|googlebot|stat|awstat|secret|token|Statistics|pdf|xls|doc|txt) site:%s"  compatible="yes" ontextfield=""  />
+		<link name="internal1" value="https://duckduckgo.com/?q=intext:(intranet|report|admin|administrator|security|temp|tmp|download|curriculum vitae|address|phone|fax|email|assessment) site:%s"  compatible="yes" ontextfield=""  />	
+		<link name="internal2" value="https://duckduckgo.com/?q=inurl:(user|authors|members|passcode|pin|pass|password|pwd|config|cfg|conf|help|desk|contact|intranet|report|admin|administrator) site:%s"  compatible="yes" ontextfield=""  />
 
-		<link name="leaked1" value='https://www.google.com/search?q=inurl:(login|logon|bot|googlebot|"server-status"|"server-stat"|stat|awstat|secret|token|downloads|download|pdf|xls|docs|doc|txt|security|temp|tmp|browse) site:%s'  compatible="yes" ontextfield=""  />
+		<link name="leaked1" value='https://duckduckgo.com/?q=inurl:(login|logon|bot|googlebot|"server-status"|"server-stat"|stat|awstat|secret|token|downloads|download|pdf|xls|docs|doc|txt|security|temp|tmp|browse) site:%s'  compatible="yes" ontextfield=""  />
 
-		<link name="extentions" value="https://www.google.com/search?q=-ext:html -ext:htm -ext:shtml -ext:asp -ext:php -ext:aspx -ext:jsp site:%s"  compatible="yes" ontextfield=""  />		
+		<link name="extentions" value="https://duckduckgo.com/?q=-ext:html -ext:htm -ext:shtml -ext:asp -ext:php -ext:aspx -ext:jsp site:%s"  compatible="yes" ontextfield=""  />		
 
-		<link name="related" value="https://www.google.com/search?q=related:%s"  compatible="yes" ontextfield=""  />
-		<link name="inurl" value="https://www.google.com/search?q=inurl:%s"  compatible="yes" ontextfield=""  />
-		<link name="intitle" value="https://www.google.com/search?q=intitle:%s"  compatible="yes" ontextfield=""  />
-		<link name="intext" value="https://www.google.com/search?q=intext:%s"  compatible="yes" ontextfield=""  />	
-		<link name="filetype" value="https://www.google.com/search?q=filetype:%s"  compatible="yes" ontextfield=""  />
-		<link name="pdf" value="https://www.google.com/search?q=filetype:pdf site:%s"  compatible="yes" ontextfield=""  />
-		<link name="xls" value="https://www.google.com/search?q=filetype:xls site:%s"  compatible="yes" ontextfield=""  />
-		<link name="xml" value="https://www.google.com/search?q=filetype:xml site:%s"  compatible="yes" ontextfield=""  />
-		<link name="doc" value="https://www.google.com/search?q=filetype:doc site:%s"  compatible="yes" ontextfield=""  />
-		<link name="mdb" value="https://www.google.com/search?q=filetype:mdb site:%s"  compatible="yes" ontextfield=""  />
-		<link name="log" value="https://www.google.com/search?q=filetype:log site:%s"  compatible="yes" ontextfield=""  />
-		<link name="bak" value="https://www.google.com/search?q=filetype:bak site:%s"  compatible="yes" ontextfield=""  />
-		<link name="conf" value="https://www.google.com/search?q=filetype:conf site:%s"  compatible="yes" ontextfield=""  />		
-		<link name="passwd" value="https://www.google.com/search?q=filetype:passwd site:%s"  compatible="yes" ontextfield=""  />
-		<link name="pwd" value="https://www.google.com/search?q=filetype:pwd site:%s"  compatible="yes" ontextfield=""  />
+		<link name="related" value="https://duckduckgo.com/?q=related:%s"  compatible="yes" ontextfield=""  />
+		<link name="inurl" value="https://duckduckgo.com/?q=inurl:%s"  compatible="yes" ontextfield=""  />
+		<link name="intitle" value="https://duckduckgo.com/?q=intitle:%s"  compatible="yes" ontextfield=""  />
+		<link name="intext" value="https://duckduckgo.com/?q=intext:%s"  compatible="yes" ontextfield=""  />	
+		<link name="filetype" value="https://duckduckgo.com/?q=filetype:%s"  compatible="yes" ontextfield=""  />
+		<link name="pdf" value="https://duckduckgo.com/?q=filetype:pdf site:%s"  compatible="yes" ontextfield=""  />
+		<link name="xls" value="https://duckduckgo.com/?q=filetype:xls site:%s"  compatible="yes" ontextfield=""  />
+		<link name="xml" value="https://duckduckgo.com/?q=filetype:xml site:%s"  compatible="yes" ontextfield=""  />
+		<link name="doc" value="https://duckduckgo.com/?q=filetype:doc site:%s"  compatible="yes" ontextfield=""  />
+		<link name="mdb" value="https://duckduckgo.com/?q=filetype:mdb site:%s"  compatible="yes" ontextfield=""  />
+		<link name="log" value="https://duckduckgo.com/?q=filetype:log site:%s"  compatible="yes" ontextfield=""  />
+		<link name="bak" value="https://duckduckgo.com/?q=filetype:bak site:%s"  compatible="yes" ontextfield=""  />
+		<link name="conf" value="https://duckduckgo.com/?q=filetype:conf site:%s"  compatible="yes" ontextfield=""  />		
+		<link name="passwd" value="https://duckduckgo.com/?q=filetype:passwd site:%s"  compatible="yes" ontextfield=""  />
+		<link name="pwd" value="https://duckduckgo.com/?q=filetype:pwd site:%s"  compatible="yes" ontextfield=""  />
 
 	</category>
 	
@@ -154,8 +154,8 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 
 	<category name="Tools">
 		<link name="Metasploit Module" value="http://www.metasploit.com/modules/framework/search?utf8=%E2%9C%93&amp;osvdb=&amp;bid=&amp;text=%s&amp;cve=&amp;msb="  compatible="yes" ontextfield=""  />
-		<link name="Metasploit GitHub" value="https://www.google.com/search?q=%s%20site:https://github.com/rapid7/metasploit-framework"  compatible="yes" ontextfield=""  />
-		<link name="Nessus" value="https://www.google.com/search?q=(intitle:%s OR intext:%s) site:www.nessus.org/plugins/"  compatible="yes" ontextfield=""  />
+		<link name="Metasploit GitHub" value="https://duckduckgo.com/?q=%s%20site:https://github.com/rapid7/metasploit-framework"  compatible="yes" ontextfield=""  />
+		<link name="Nessus" value="https://duckduckgo.com/?q=(intitle:%s OR intext:%s) site:www.nessus.org/plugins/"  compatible="yes" ontextfield=""  />
 		<link name="NeXpose" value="http://www.rapid7.com/VulnDbSearchServlet?query=%s&amp;search.x=0&amp;search.y=0"  compatible="yes" ontextfield=""  />		
 		<link name="OpenVAS" value="http://sec101.sourceforge.net/wsa/openvas.php?q=%s"  compatible="yes" ontextfield=""  />
 	</category>
@@ -163,9 +163,9 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 	
 	<!-- EXPLOITS -->
 	<category name="Exploits">	
-		<link name="Googleit" value="https://www.google.com/search?q=%s (vulnerability or vulnerabilities) OR (exploits or security holes)"  compatible="yes" ontextfield=""  />	
-		<link name="Full Disclosure" value="https://www.google.com/search?q=%s site:seclists.org/fulldisclosure"  compatible="yes" ontextfield=""  />	
-		<link name="BugTraq" value="https://www.google.com/search?q=%s site:seclists.org/bugtraq"  compatible="yes" ontextfield=""  />	
+		<link name="Googleit" value="https://duckduckgo.com/?q=%s (vulnerability or vulnerabilities) OR (exploits or security holes)"  compatible="yes" ontextfield=""  />	
+		<link name="Full Disclosure" value="https://duckduckgo.com/?q=%s site:seclists.org/fulldisclosure"  compatible="yes" ontextfield=""  />	
+		<link name="BugTraq" value="https://duckduckgo.com/?q=%s site:seclists.org/bugtraq"  compatible="yes" ontextfield=""  />	
 		<link name="Exploit-DB" value="http://www.exploit-db.com/search/?action=search&amp;filter_page=1&amp;filter_description=%s&amp;filter_author=&amp;filter_platform=0&amp;filter_type=0&amp;filter_port=&amp;filter_osvdb=&amp;filter_cve="  compatible="yes" ontextfield=""  />	
 		<link name="PacketStormSecurity" value="http://www2.packetstormsecurity.org/cgi-bin/search/search.cgi?searchvalue=%s&amp;type=archives"  compatible="yes" ontextfield=""  />	
 		<link name="securityfocus" value="http://search.securityfocus.com/swsearch?metaname=alldoc&amp;query=%s"  compatible="yes" ontextfield=""  />	
@@ -177,7 +177,7 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 	</category>
 	<!-- CRACK -->
 	<category name="Crack">	
-		<link name="DefaultPasswd" value="https://www.google.com/search?q=%s site:http://www.phenoelit-us.org/dpl/dpl.html"  compatible="yes" ontextfield=""  />	
+		<link name="DefaultPasswd" value="https://duckduckgo.com/?q=%s site:http://www.phenoelit-us.org/dpl/dpl.html"  compatible="yes" ontextfield=""  />	
 		<link name="CrackStation" value="http://crackstation.net/" compatible="yes" ontextfield="hashes"  />	
 		<link name="OnlineHashCrack" value="http://www.onlinehashcrack.com/" compatible="yes" ontextfield="hashToSearch"  />
 		<link name="cmd5" value="http://www.cmd5.org/" compatible="yes" ontextfield="ctl00_ContentPlaceHolder1_TextBoxInput"  />		
@@ -214,20 +214,20 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 	
 	<!-- XREF -->
 	<category name="X-Ref">	
-		<link name="OWASP" value="https://www.google.com/search?q=(intitle:%s OR intext:%s) site:www.owasp.org/index.php"  compatible="yes" ontextfield=""  />
-		<link name="WASC" value="https://www.google.com/search?q=site:projects.webappsec.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
-		<link name="CVE" value="https://www.google.com/search?q=site:web.nvd.nist.gov (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
+		<link name="OWASP" value="https://duckduckgo.com/?q=(intitle:%s OR intext:%s) site:www.owasp.org/index.php"  compatible="yes" ontextfield=""  />
+		<link name="WASC" value="https://duckduckgo.com/?q=site:projects.webappsec.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
+		<link name="CVE" value="https://duckduckgo.com/?q=site:web.nvd.nist.gov (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
 		<link name="CVE2" value="http://cvedetails.com/product-search.php?vendor_id=0&amp;search=%s&amp;application=1&amp;operatingsystem=1&amp;hardware=1" compatible="yes" ontextfield=""  />
-		<link name="CWE" value="https://www.google.com/search?q=site:cwe.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
-		<link name="CAPEC" value="https://www.google.com/search?q=site:capec.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
-		<link name="CCE" value="https://www.google.com/search?q=site:cce.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
-		<link name="CPE" value="https://www.google.com/search?q=site:cpe.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
-		<link name="OVAL" value="https://www.google.com/search?q=site:oval.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
-		<link name="MAEC" value="https://www.google.com/search?q=site:maec.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
-		<link name="XCCDF" value="https://www.google.com/search?q=site:scap.nist.gov/specifications/xccdf/ (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
-		<link name="SCAP" value="https://www.google.com/search?q=site:scap.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />		
-		<link name="CEE" value="https://www.google.com/search?q=site:cee.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
-		<link name="CWE SEMMLE" value="https://www.google.com/search?q=%s site:https://help.semmle.com/wiki/display/"  compatible="yes" ontextfield=""  />
+		<link name="CWE" value="https://duckduckgo.com/?q=site:cwe.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
+		<link name="CAPEC" value="https://duckduckgo.com/?q=site:capec.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
+		<link name="CCE" value="https://duckduckgo.com/?q=site:cce.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
+		<link name="CPE" value="https://duckduckgo.com/?q=site:cpe.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
+		<link name="OVAL" value="https://duckduckgo.com/?q=site:oval.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
+		<link name="MAEC" value="https://duckduckgo.com/?q=site:maec.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
+		<link name="XCCDF" value="https://duckduckgo.com/?q=site:scap.nist.gov/specifications/xccdf/ (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
+		<link name="SCAP" value="https://duckduckgo.com/?q=site:scap.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />		
+		<link name="CEE" value="https://duckduckgo.com/?q=site:cee.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
+		<link name="CWE SEMMLE" value="https://duckduckgo.com/?q=%s site:https://help.semmle.com/wiki/display/"  compatible="yes" ontextfield=""  />
 		<link name="CERT_SecureCoding" value="https://www.securecoding.cert.org/confluence/dosearchsite.action?queryString=%s"  compatible="yes" ontextfield=""  />
 	    
 	</category>		
