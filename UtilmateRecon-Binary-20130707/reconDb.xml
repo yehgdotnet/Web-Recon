@@ -241,7 +241,7 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 	
 	<!-- Resources -->
 	<category name="Resources">	
-		<link name="Arstechica News" value="https://arstechnica.com/search/?ie=UTF-8&q=%s"  compatible="yes" ontextfield=""  />		
+		<link name="Arstechica News" value="https://arstechnica.com/search/?ie=UTF-8&amp;q=%s"  compatible="yes" ontextfield=""  />		
 		<link name="Wikipedia" value="http://en.wikipedia.org/wiki/Special:Search?search=%s"  compatible="yes" ontextfield=""  />	
 		<link name="SecurityToolsWatch" value="http://www.security-database.com/toolswatch/spip.php?page=recherche&amp;recherche=%s"  compatible="yes" ontextfield=""  />
 		<link name="HackerWebDir" value="http://yehg.net/hwd/index.php?id=s&amp;q=%s"  compatible="yes" ontextfield=""  />	
